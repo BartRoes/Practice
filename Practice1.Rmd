@@ -7,6 +7,7 @@ output:
 '''{r echo=TRUE}
 #so much fun
 x <- seq(1,10, 2)
+x <- 1/2 * x
 print(x)
 '''
 
