@@ -2,9 +2,11 @@
 output:
   pdf_document: default
   html_document: default
-  git config --global user.email "bart.roes@unil.ch"
 ---
 
+'''{r echo=TRUE}
 #so much fun
-x <- seq(1,500, 2)
+x <- seq(1,10, 2)
+print(x)
+'''
 
